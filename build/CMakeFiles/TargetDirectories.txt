@@ -1,0 +1,3 @@
+C:/Users/Owner/Documents/GitHub/orthogon/build/CMakeFiles/ORTHO_LIB.dir
+C:/Users/Owner/Documents/GitHub/orthogon/build/CMakeFiles/Orthogon.dir
+C:/Users/Owner/Documents/GitHub/orthogon/build/TestSuite/CMakeFiles/test.dir
