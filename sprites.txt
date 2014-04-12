@@ -1,0 +1,161 @@
+#ifndef IMAGEREF_H
+#define IMAGEREF_H
+#include "TiledImage.h"
+#include <string>
+
+struct ImageRef
+{
+public:
+	enum name 
+	{
+	BG_1				=0, 
+	BG_2				=1,
+	BG_3				=2,
+	BLOCK_2				=3,
+	BLOCK_BOUNCE_1		=4,
+	BLOCK_BOUNCE_2		=5,
+	BLOCK_JUMP_1		=6,
+	BLOCK_JUMP_2		=7,
+	BLOCK_PORTAL_1		=8,
+	BLOCK_PORTAL_2		=9,
+	BLOCK_TRANSLATION_1	=10,
+	BLOCK_TRANSLATION_2	=11,
+	CHERRIES			=12,
+	CHERRY				=13,
+	LINE_1				=14,
+	LINE_2				=15,
+	LINE_3				=16,
+	LINE_4				=17,
+	LINE_5				=18,
+	LINE_END			=19,
+	LINE_POP			=20,
+	MAN_DOWN_1			=21,
+	MAN_DOWN_2			=22,
+	MAN_EAT_1			=23,
+	MAN_JUMP_1			=24,
+	MAN_OOF_1			=25,
+	MAN_RUN_1			=26,
+	MAN_STAND_1			=27,
+	MAN_UP_1			=28
+	};
+	
+	std::map<name, TiledImage> images;
+	
+ImageRef()
+{
+	images.push_back(	BG_1, 
+						TiledImage(find("bg_1.png"), 
+						TileParams(sf::Vector2u(256, 256));
+
+	images.push_back(	BG_2,
+						TiledImage(find("bg_2.png"),
+						TileParams(sf::Vector2u(800,600));
+
+	images.push_back(	BG_3,
+						TiledImage(find("bg_3.png"),
+						TileParams(sf::Vector2u(97, 600));
+
+	images.push_back(	BLOCK_2,
+						TiledImage(find("block_2.png")
+						TileParams(sf::Vector2u(32, 32));
+
+	images.push_back(	BLOCK_BOUNCE_1,
+						TiledImage(find("block_bounce_1.png")
+						TileParams(sf::Vector2u(32, 30));
+
+	images.push_back(	BLOCK_BOUNCE_2,
+						TiledImage(find("block_bounce_2.png")
+						TileParams(sf::Vector2u(32, 30));
+
+	images.push_back(	BLOCK_JUMP_1,
+						TiledImage(find("block_jump_1.png")
+						TileParams(sf::Vector2u(32, 5));
+
+	images.push_back(	BLOCK_JUMP_2,
+						TiledImage(find("block_jump_2.png")
+						TileParams(sf::Vector2u(32, 5));
+
+	images.push_back(	BLOCK_PORTAL_1,
+						TiledImage(find("block_portal_1.png")
+						TileParams(sf::Vector2u(32, 32));
+
+	images.push_back(	BLOCK_PORTAL_2,
+						TiledImage(find("block_portal_2.png")
+						TileParams(sf::Vector2u(32, 32));
+
+	images.push_back(	BLOCK_TRANSLATION_1,
+						TiledImage(find("block_translation_1.png")
+						TileParams(sf::Vector2u(32, 32));
+
+	images.push_back(	BLOCK_TRANSLATION_2,
+						TiledImage(find("block_translation_2.png")
+						TileParams(sf::Vector2u(32, 32));
+
+	images.push_back(	CHERRIES,
+						TiledImage(find("cherries.png")
+						TileParams(sf::Vector2u(24, 29));
+
+	images.push_back(	CHERRY,
+						TiledImage(find("cherry.png")
+						TileParams(sf::Vector2u(126, 16));
+
+	images.push_back(	LINE_1,
+						TiledImage(find("line_1.png")
+						TileParams(sf::Vector2u(8, 8));
+
+	images.push_back(	LINE_2,
+						TiledImage(find("line_2.png")
+						TileParams(sf::Vector2u(8, 8));
+
+	images.push_back(	LINE_3,
+						TiledImage(find("line_3.png")
+						TileParams(sf::Vector2u(8, 8));
+
+	images.push_back(	LINE_4,
+						TiledImage(find("line_4.png")
+						TileParams(sf::Vector2u(8, 8));
+
+	images.push_back(	LINE_5,
+						TiledImage(find("line_5.png")
+						TileParams(sf::Vector2u(8, 8));
+
+	images.push_back(	LINE_END,
+						TiledImage(find("line_end.png")
+						TileParams(sf::Vector2u(32, 32));
+
+	images.push_back(	LINE_POP,
+						TiledImage(find("line_pop.png")
+						TileParams(sf::Vector2u(15, 16));
+
+	images.push_back(	MAN_DOWN_1,
+						TiledImage(find("man_down_1.png")
+						TileParams(sf::Vector2u(29, 28));
+
+	images.push_back(	MAN_DOWN_2,
+						TiledImage(find("man_down_2.png")
+						TileParams(sf::Vector2u(17, 19));
+
+	images.push_back(	MAN_EAT_1,
+						TiledImage(find("man_eat_1.png")
+						TileParams(sf::Vector2u(63, 32));
+
+	images.push_back(	MAN_JUMP_1,
+						TiledImage(find("man_jump_1.png")
+						TileParams(sf::Vector2u(17, 31));
+
+	images.push_back(	MAN_OOF_1,
+						TiledImage(find("man_oof_1.png")
+						TileParams(sf::Vector2u(18, 28));
+
+	images.push_back(	MAN_RUN_1,
+						TiledImage(find("man_run_1.png")
+						TileParams(sf::Vector2u(26, 32));
+
+	images.push_back(	MAN_STAND_1,
+						TiledImage(find("man_stand_1.png")
+						TileParams(sf::Vector2u(17, 31));
+
+	images.push_back(	MAN_UP_1,
+						TiledImage(find("man_up_1.png")
+						TileParams(sf::Vector2u(17, 11));
+}

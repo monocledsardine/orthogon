@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Owner/Documents/GitHub/orthogon
+# Install script for directory: C:/Users/owner/Documents/GitHub/orthogon
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "C:/Users/Owner/Documents/GitHub/orthogon/bin")
+  SET(CMAKE_INSTALL_PREFIX "C:/Users/owner/Documents/GitHub/orthogon/bin")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -28,7 +28,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "C:/Users/Owner/Documents/GitHub/orthogon/build/Orthogon.exe")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "C:/Users/owner/Documents/GitHub/orthogon/build/Orthogon.exe")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Orthogon.exe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./Orthogon.exe")
     IF(CMAKE_INSTALL_DO_STRIP)
@@ -38,20 +38,30 @@ IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspeci
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "C:/Users/owner/Documents/GitHub/orthogon/build/JumpTest.exe")
+  IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./JumpTest.exe" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./JumpTest.exe")
+    IF(CMAKE_INSTALL_DO_STRIP)
+      EXECUTE_PROCESS(COMMAND "C:/MinGW/bin/strip.exe" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./JumpTest.exe")
+    ENDIF(CMAKE_INSTALL_DO_STRIP)
+  ENDIF()
+ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
+
+IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES
-    "C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/bin/sfml-system-2.dll"
-    "C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/bin/sfml-window-2.dll"
-    "C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/bin/sfml-graphics-2.dll"
+    "C:/Users/owner/Documents/GitHub/SFML//bin/sfml-system-2.dll"
+    "C:/Users/owner/Documents/GitHub/SFML//bin/sfml-window-2.dll"
+    "C:/Users/owner/Documents/GitHub/SFML//bin/sfml-graphics-2.dll"
     )
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "C:/Users/Owner/Documents/GitHub/orthogon/images")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "C:/Users/owner/Documents/GitHub/orthogon/images")
 ENDIF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
 
 IF(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  INCLUDE("C:/Users/Owner/Documents/GitHub/orthogon/build/TestSuite/cmake_install.cmake")
+  INCLUDE("C:/Users/owner/Documents/GitHub/orthogon/build/TestSuite/cmake_install.cmake")
 
 ENDIF(NOT CMAKE_INSTALL_LOCAL_ONLY)
 
@@ -61,7 +71,7 @@ ELSE(CMAKE_INSTALL_COMPONENT)
   SET(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 ENDIF(CMAKE_INSTALL_COMPONENT)
 
-FILE(WRITE "C:/Users/Owner/Documents/GitHub/orthogon/build/${CMAKE_INSTALL_MANIFEST}" "")
+FILE(WRITE "C:/Users/owner/Documents/GitHub/orthogon/build/${CMAKE_INSTALL_MANIFEST}" "")
 FOREACH(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  FILE(APPEND "C:/Users/Owner/Documents/GitHub/orthogon/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  FILE(APPEND "C:/Users/owner/Documents/GitHub/orthogon/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 ENDFOREACH(file)

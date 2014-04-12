@@ -9,7 +9,7 @@ DottedPath::DottedPath() : dotInc(15.0f)
 
 void DottedPath::render()
 {
-	renderTexture.clear(sf::Color(0,0,0,0));
+	//renderTexture.clear(sf::Color(0,0,0,0));
 	
 	/*sf::RenderStates states;
 	states.texture = dotTexture;
@@ -22,22 +22,23 @@ void DottedPath::render()
 		sf::Vertex(sf::Vector2f(dotTexture->getSize().x, 0.0f))
 	};*/
 	
-	sprite.setTexture(*dotTexture);
+	float len = path->length();
+	sprites.resize(len/dotInc + 1);
 	
 	float i;
-	float len = path->length();
-	while (i < len)
+	while (i*dotInc < len)
 	{
-		sprite.setPosition(path->pos(i));
-		renderTexture.draw(sprite);
-		i += dotInc;
+		sprites.push_back(sf::Sprite());
+		sprites[i].setTexture(*dotTexture);
+		sprites[i].setPosition(path->pos(i*dotInc));
+		++i;
 	}
-	
-	renderTexture.display();	
-	sprite = sf::Sprite(renderTexture.getTexture());	
 }
 
 void DottedPath::draw(sf::RenderTarget& target, sf::RenderStates states) const
 {
-	target.draw(sprite);
+	std::deque<sf::Sprite>::const_iterator i;
+	std::deque<sf::Sprite>::const_iterator end(sprites.end());
+	for (i=sprites.begin(); i < end; ++i)
+		target.draw(*i);
 }

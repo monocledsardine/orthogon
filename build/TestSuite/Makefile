@@ -29,22 +29,22 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake 2.8\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake 2.8\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = "C:\Program Files\CMake 2.8\bin\cmake-gui.exe"
+CMAKE_EDIT_COMMAND = "C:\Program Files (x86)\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Owner\Documents\GitHub\orthogon
+CMAKE_SOURCE_DIR = C:\Users\owner\Documents\GitHub\orthogon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Owner\Documents\GitHub\orthogon\build
+CMAKE_BINARY_DIR = C:\Users\owner\Documents\GitHub\orthogon\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -52,7 +52,7 @@ CMAKE_BINARY_DIR = C:\Users\Owner\Documents\GitHub\orthogon\build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"C:\Program Files\CMake 2.8\bin\cmake-gui.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files (x86)\CMake 2.8\bin\cmake-gui.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -62,19 +62,19 @@ edit_cache/fast: edit_cache
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\CMake 2.8\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\CMake 2.8\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\CMake 2.8\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
@@ -84,7 +84,7 @@ install/local/fast: install/local
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\CMake 2.8\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
@@ -103,7 +103,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\CMake 2.8\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -112,14 +112,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite\CMakeFiles\progress.marks
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f CMakeFiles\Makefile2 TestSuite/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles 0
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(CMAKE_COMMAND) -E cmake_progress_start C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite\CMakeFiles\progress.marks
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f CMakeFiles\Makefile2 TestSuite/all
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f CMakeFiles\Makefile2 TestSuite/clean
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f CMakeFiles\Makefile2 TestSuite/clean
 .PHONY : clean
 
 # The main clean target
@@ -128,22 +128,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f CMakeFiles\Makefile2 TestSuite/preinstall
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f CMakeFiles\Makefile2 TestSuite/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f CMakeFiles\Makefile2 TestSuite/preinstall
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f CMakeFiles\Makefile2 TestSuite/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 TestSuite/CMakeFiles/test.dir/rule:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f CMakeFiles\Makefile2 TestSuite/CMakeFiles/test.dir/rule
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f CMakeFiles\Makefile2 TestSuite/CMakeFiles/test.dir/rule
 .PHONY : TestSuite/CMakeFiles/test.dir/rule
 
 # Convenience name for target.
@@ -152,7 +152,7 @@ test: TestSuite/CMakeFiles/test.dir/rule
 
 # fast build rule for target.
 test/fast:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/build
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/build
 .PHONY : test/fast
 
 Game_Test.obj: Game_Test.cpp.obj
@@ -160,7 +160,7 @@ Game_Test.obj: Game_Test.cpp.obj
 
 # target to build an object file
 Game_Test.cpp.obj:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj
 .PHONY : Game_Test.cpp.obj
 
 Game_Test.i: Game_Test.cpp.i
@@ -168,7 +168,7 @@ Game_Test.i: Game_Test.cpp.i
 
 # target to preprocess a source file
 Game_Test.cpp.i:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Game_Test.cpp.i
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Game_Test.cpp.i
 .PHONY : Game_Test.cpp.i
 
 Game_Test.s: Game_Test.cpp.s
@@ -176,7 +176,7 @@ Game_Test.s: Game_Test.cpp.s
 
 # target to generate assembly for a file
 Game_Test.cpp.s:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Game_Test.cpp.s
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Game_Test.cpp.s
 .PHONY : Game_Test.cpp.s
 
 Suite.obj: Suite.cpp.obj
@@ -184,7 +184,7 @@ Suite.obj: Suite.cpp.obj
 
 # target to build an object file
 Suite.cpp.obj:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Suite.cpp.obj
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Suite.cpp.obj
 .PHONY : Suite.cpp.obj
 
 Suite.i: Suite.cpp.i
@@ -192,7 +192,7 @@ Suite.i: Suite.cpp.i
 
 # target to preprocess a source file
 Suite.cpp.i:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Suite.cpp.i
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Suite.cpp.i
 .PHONY : Suite.cpp.i
 
 Suite.s: Suite.cpp.s
@@ -200,7 +200,7 @@ Suite.s: Suite.cpp.s
 
 # target to generate assembly for a file
 Suite.cpp.s:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Suite.cpp.s
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Suite.cpp.s
 .PHONY : Suite.cpp.s
 
 Test.obj: Test.cpp.obj
@@ -208,7 +208,7 @@ Test.obj: Test.cpp.obj
 
 # target to build an object file
 Test.cpp.obj:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Test.cpp.obj
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Test.cpp.obj
 .PHONY : Test.cpp.obj
 
 Test.i: Test.cpp.i
@@ -216,7 +216,7 @@ Test.i: Test.cpp.i
 
 # target to preprocess a source file
 Test.cpp.i:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Test.cpp.i
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Test.cpp.i
 .PHONY : Test.cpp.i
 
 Test.s: Test.cpp.s
@@ -224,7 +224,7 @@ Test.s: Test.cpp.s
 
 # target to generate assembly for a file
 Test.cpp.s:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Test.cpp.s
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(MAKE) -f TestSuite\CMakeFiles\test.dir\build.make TestSuite/CMakeFiles/test.dir/Test.cpp.s
 .PHONY : Test.cpp.s
 
 # Help Target
@@ -260,6 +260,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

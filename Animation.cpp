@@ -6,18 +6,16 @@ using namespace std;
 Animation::Animation()
 {
 	frameDuration = sf::Time::Zero;
-	setTexture(texture, true); //By default textureRect is 0 x 0!
 }
 
-bool Animation::loadFromImage(const TiledImage& image, sf::Time dur, bool resetRect)
+void Animation::loadFromTexture(const TiledTexture& texture, sf::Time dur, bool resetRect)
 {
-	bool result = texture.loadFromImage(image);
-	frames.resize(image.tiles.size());
-	copy(image.tiles.begin(), image.tiles.end(), frames.begin());
+	setTexture(texture);
+	frames = &texture.tiles;
+	setOrigin(frames->origin.x, frames->origin.y);
 	
 	frameDuration = dur;
-	
-	return result;
+	setFrame(0);
 }
 
 void Animation::setFrame(int index)
@@ -26,7 +24,34 @@ void Animation::setFrame(int index)
 	{
 		return;
 	}	
-	setTextureRect(frames[index % numFrames()]);
+	setTextureRect(frames->at(index % numFrames()));
+	currentTime = frameDuration*static_cast<float>(index);
+}
+
+void Animation::setFrame(const sf::Time& time)
+{
+	if (numFrames() == 0)
+	{
+		return;
+	}	
+	setTextureRect(frames->at(getFrame(time) % numFrames()));
+}
+
+bool Animation::update(const sf::Time& time)
+{
+	bool toReturn = false;
+	currentTime += time;
+	
+	sf::Time length(frameDuration*static_cast<float>(numFrames()));
+	
+	while (currentTime > length)
+	{
+		currentTime -= length;
+		toReturn = true;
+	}	
+	
+	setFrame(currentTime);
+	return toReturn;
 }
 
 int Animation::getFrame(const sf::Time& time) const

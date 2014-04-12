@@ -6,27 +6,27 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Config.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Config.hpp
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/BlendMode.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/BlendMode.hpp
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Color.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Color.hpp
 SFML/Graphics/Export.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Drawable.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Drawable.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/RenderStates.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Export.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Export.hpp
 SFML/Config.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/PrimitiveType.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/PrimitiveType.hpp
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Rect.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Rect.hpp
 SFML/System/Vector2.hpp
 -
 algorithm
@@ -34,9 +34,9 @@ algorithm
 SFML/Graphics/Rect.inl
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Rect.inl
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Rect.inl
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/RenderStates.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/RenderStates.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/BlendMode.hpp
@@ -44,7 +44,7 @@ SFML/Graphics/BlendMode.hpp
 SFML/Graphics/Transform.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Transform.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Transform.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Rect.hpp
@@ -52,7 +52,7 @@ SFML/Graphics/Rect.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Vertex.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Vertex.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Color.hpp
@@ -60,7 +60,7 @@ SFML/Graphics/Color.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/VertexArray.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/VertexArray.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Vertex.hpp
@@ -74,45 +74,63 @@ SFML/Graphics/Drawable.hpp
 vector
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/System/Vector2.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.hpp
 SFML/System/Vector2.inl
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/System/Vector2.inl
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
 
-C:/Users/Owner/Documents/GitHub/orthogon/Angle.h
+C:/Users/owner/Documents/GitHub/orthogon/Angle.h
 cmath
 -
 
-C:/Users/Owner/Documents/GitHub/orthogon/Path.h
+C:/Users/owner/Documents/GitHub/orthogon/Path.h
 Angle.h
-C:/Users/Owner/Documents/GitHub/orthogon/Angle.h
+C:/Users/owner/Documents/GitHub/orthogon/Angle.h
 SFML/Graphics/VertexArray.hpp
 -
 deque
 -
 
-C:/Users/Owner/Documents/GitHub/orthogon/TestSuite/Game_Test.cpp
+C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Game_Test.cpp
 iostream
 -
 stdio.h
 -
 Test.h
-C:/Users/Owner/Documents/GitHub/orthogon/TestSuite/Test.h
+C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Test.h
 Suite.h
-C:/Users/Owner/Documents/GitHub/orthogon/TestSuite/Suite.h
+C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Suite.h
 ../Path.h
-C:/Users/Owner/Documents/GitHub/orthogon/Path.h
+C:/Users/owner/Documents/GitHub/orthogon/Path.h
 
-C:/Users/Owner/Documents/GitHub/orthogon/TestSuite/Suite.h
+C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Suite.cpp
+Suite.h
+C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Suite.h
+iostream
+-
+cassert
+-
+cstddef
+-
+
+C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Suite.h
 vector
 -
 stdexcept
 -
 ../TestSuite/Test.h
-C:/Users/Owner/Documents/GitHub/orthogon/TestSuite/Test.h
+C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Test.h
 
-C:/Users/Owner/Documents/GitHub/orthogon/TestSuite/Test.h
+C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Test.cpp
+Test.h
+C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Test.h
+iostream
+-
+typeinfo
+-
+
+C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Test.h
 string
 -
 iostream

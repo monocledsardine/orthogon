@@ -13,7 +13,7 @@ public:
 	Animation();
 	virtual ~Animation() {}
 	
-	bool loadFromImage(const TiledImage&, sf::Time dur = sf::Time::Zero, 
+	void loadFromTexture(const TiledTexture&, sf::Time dur = sf::Time::Zero, 
 						bool resetRect = false);
 	
 	/*	Return the indexed frame, or the frame 
@@ -25,25 +25,27 @@ public:
 	/*	Set the current frame for drawing
 	*/
 	void setFrame(int index);
+	void setFrame(const sf::Time&);
 	
 	/*	Return the index of the frame indicated by
 		elapsed time since the start of the animation.
 	*/
-	int getFrame(const sf::Time&) const; 
+	int getFrame(const sf::Time&) const;
+	
+	bool update(const sf::Time&);
 	
 	/*const sf::Texture& getFrame(const sf::Time&) const 
 		{ return getFrame(getIndex(sf::Time)); }*/	
 		
 	int numFrames() const 
-		{ return frames.size(); }
+		{ return frames->size(); }
 	
-	/* 	Number of milliseconds between frames
+	/* 	Time between frames
 	*/
 	sf::Time frameDuration;
 protected:
-	TileSet frames;
-private:
-	sf::Texture texture;
+	const TileSet* frames;
+	sf::Time currentTime;
 };
 
 
@@ -61,4 +63,5 @@ public:
 	sf::Time frameTime;
 	float animationSpeed;
 };
+
 #endif //ANIMATION_H

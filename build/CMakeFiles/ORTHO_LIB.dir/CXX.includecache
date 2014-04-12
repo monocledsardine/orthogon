@@ -6,25 +6,25 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Config.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Config.hpp
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/BlendMode.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/BlendMode.hpp
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Color.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Color.hpp
 SFML/Graphics/Export.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Drawable.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Drawable.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/RenderStates.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Export.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Export.hpp
 SFML/Config.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Image.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Image.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Color.hpp
@@ -36,9 +36,9 @@ string
 vector
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/PrimitiveType.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/PrimitiveType.hpp
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Rect.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Rect.hpp
 SFML/System/Vector2.hpp
 -
 algorithm
@@ -46,9 +46,9 @@ algorithm
 SFML/Graphics/Rect.inl
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Rect.inl
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Rect.inl
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/RenderStates.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/RenderStates.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/BlendMode.hpp
@@ -56,7 +56,37 @@ SFML/Graphics/BlendMode.hpp
 SFML/Graphics/Transform.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Sprite.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/RenderTarget.hpp
+SFML/Graphics/Export.hpp
+-
+SFML/Graphics/Color.hpp
+-
+SFML/Graphics/Rect.hpp
+-
+SFML/Graphics/View.hpp
+-
+SFML/Graphics/Transform.hpp
+-
+SFML/Graphics/BlendMode.hpp
+-
+SFML/Graphics/RenderStates.hpp
+-
+SFML/Graphics/PrimitiveType.hpp
+-
+SFML/Graphics/Vertex.hpp
+-
+SFML/System/NonCopyable.hpp
+-
+
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/RenderTexture.hpp
+SFML/Graphics/Export.hpp
+-
+SFML/Graphics/Texture.hpp
+-
+SFML/Graphics/RenderTarget.hpp
+-
+
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Sprite.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Drawable.hpp
@@ -68,7 +98,7 @@ SFML/Graphics/Vertex.hpp
 SFML/Graphics/Rect.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Texture.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Texture.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Image.hpp
@@ -76,7 +106,7 @@ SFML/Graphics/Image.hpp
 SFML/Window/GlResource.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Transform.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Transform.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Rect.hpp
@@ -84,13 +114,13 @@ SFML/Graphics/Rect.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Transformable.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Transformable.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Transform.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/Vertex.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Vertex.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Color.hpp
@@ -98,7 +128,7 @@ SFML/Graphics/Color.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Graphics/VertexArray.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/VertexArray.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Vertex.hpp
@@ -112,29 +142,43 @@ SFML/Graphics/Drawable.hpp
 vector
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/System/Export.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/View.hpp
+SFML/Graphics/Export.hpp
+-
+SFML/Graphics/Rect.hpp
+-
+SFML/Graphics/Transform.hpp
+-
+SFML/System/Vector2.hpp
+-
+
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Export.hpp
 SFML/Config.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/System/Time.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/NonCopyable.hpp
 SFML/System/Export.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/System/Vector2.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Time.hpp
+SFML/System/Export.hpp
+-
+
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.hpp
 SFML/System/Vector2.inl
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/System/Vector2.inl
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Window/Export.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Export.hpp
 SFML/Config.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include/SFML/Window/GlResource.hpp
+C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/GlResource.hpp
 SFML/Window/Export.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/orthogon/Actor.h
+C:/Users/owner/Documents/GitHub/orthogon/Actor.h
 SFML/Graphics/Sprite.hpp
 -
 SFML/Graphics/Rect.hpp
@@ -142,17 +186,17 @@ SFML/Graphics/Rect.hpp
 SFML/System/Time.hpp
 -
 
-C:/Users/Owner/Documents/GitHub/orthogon/Angle.h
+C:/Users/owner/Documents/GitHub/orthogon/Angle.h
 cmath
 -
 
-C:/Users/Owner/Documents/GitHub/orthogon/Animation.cpp
+C:/Users/owner/Documents/GitHub/orthogon/Animation.cpp
 Animation.h
-C:/Users/Owner/Documents/GitHub/orthogon/Animation.h
+C:/Users/owner/Documents/GitHub/orthogon/Animation.h
 algorithm
 -
 
-C:/Users/Owner/Documents/GitHub/orthogon/Animation.h
+C:/Users/owner/Documents/GitHub/orthogon/Animation.h
 SFML/System/Time.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -160,33 +204,73 @@ SFML/Graphics/Texture.hpp
 SFML/Graphics/Sprite.hpp
 -
 TiledImage.h
-C:/Users/Owner/Documents/GitHub/orthogon/TiledImage.h
+C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
 
-C:/Users/Owner/Documents/GitHub/orthogon/Path.h
+C:/Users/owner/Documents/GitHub/orthogon/DottedPath.cpp
+DottedPath.h
+C:/Users/owner/Documents/GitHub/orthogon/DottedPath.h
+SFML/Graphics/Transform.hpp
+-
+
+C:/Users/owner/Documents/GitHub/orthogon/DottedPath.h
+SFML/Graphics/Drawable.hpp
+-
+SFML/Graphics/RenderTexture.hpp
+-
+SFML/Graphics/Sprite.hpp
+-
+Path.h
+C:/Users/owner/Documents/GitHub/orthogon/Path.h
+TiledImage.h
+C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
+deque
+-
+
+C:/Users/owner/Documents/GitHub/orthogon/ImageRef.h
+TiledImage.h
+C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
+string
+-
+map
+-
+
+C:/Users/owner/Documents/GitHub/orthogon/Path.cpp
+Path.h
+C:/Users/owner/Documents/GitHub/orthogon/Path.h
+cmath
+-
+
+C:/Users/owner/Documents/GitHub/orthogon/Path.h
 Angle.h
-C:/Users/Owner/Documents/GitHub/orthogon/Angle.h
+C:/Users/owner/Documents/GitHub/orthogon/Angle.h
 SFML/Graphics/VertexArray.hpp
 -
 deque
 -
 
-C:/Users/Owner/Documents/GitHub/orthogon/Player.cpp
+C:/Users/owner/Documents/GitHub/orthogon/Player.cpp
 Player.h
-C:/Users/Owner/Documents/GitHub/orthogon/Player.h
+C:/Users/owner/Documents/GitHub/orthogon/Player.h
+VectorHelper.h
+C:/Users/owner/Documents/GitHub/orthogon/VectorHelper.h
+stdio.h
+-
 
-C:/Users/Owner/Documents/GitHub/orthogon/Player.h
+C:/Users/owner/Documents/GitHub/orthogon/Player.h
 SFML/Graphics/Texture.hpp
 -
 Actor.h
-C:/Users/Owner/Documents/GitHub/orthogon/Actor.h
+C:/Users/owner/Documents/GitHub/orthogon/Actor.h
 Path.h
-C:/Users/Owner/Documents/GitHub/orthogon/Path.h
+C:/Users/owner/Documents/GitHub/orthogon/Path.h
+ImageRef.h
+C:/Users/owner/Documents/GitHub/orthogon/ImageRef.h
 
-C:/Users/Owner/Documents/GitHub/orthogon/TiledImage.cpp
+C:/Users/owner/Documents/GitHub/orthogon/TiledImage.cpp
 TiledImage.h
-C:/Users/Owner/Documents/GitHub/orthogon/TiledImage.h
+C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
 
-C:/Users/Owner/Documents/GitHub/orthogon/TiledImage.h
+C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
 deque
 -
 SFML/System/Vector2.hpp
@@ -194,5 +278,13 @@ SFML/System/Vector2.hpp
 SFML/Graphics/Rect.hpp
 -
 SFML/Graphics/Image.hpp
+-
+SFML/Graphics/Texture.hpp
+-
+
+C:/Users/owner/Documents/GitHub/orthogon/VectorHelper.h
+SFML/System/Vector2.hpp
+-
+cmath
 -
 

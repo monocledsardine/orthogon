@@ -2,10 +2,12 @@
 #define DOTTEDPATH_H
 
 #include <SFML/Graphics/Drawable.hpp>
-#include <SFML/Graphics/Texture.hpp>
 #include <SFML/Graphics/RenderTexture.hpp>
 #include <SFML/Graphics/Sprite.hpp>
 #include "Path.h"
+#include "TiledImage.h"
+
+#include <deque>
 
 class DottedPath : public sf::Drawable
 {
@@ -13,7 +15,7 @@ public:
 	DottedPath();
 	void render();
 		
-	sf::Texture* dotTexture;
+	TiledTexture* dotTexture;
 	Path* path;
 protected:
 	void draw(sf::RenderTarget&, sf::RenderStates) const;
@@ -21,7 +23,7 @@ protected:
 	sf::RenderTexture renderTexture;
 	float dotInc;
 private:
-	sf::Sprite sprite;
+	std::deque<sf::Sprite> sprites;
 };
 
 #endif //DOTTEDPATH_H

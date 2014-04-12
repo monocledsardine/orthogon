@@ -77,7 +77,6 @@ public:
 		test_(path.norm(6.0f) == b2.norm(1.0f));
 		
 		sf::Vector2f nm = b3.norm(1.0f);
-		printf("\n%f\n", nm.x*nm.x + nm.y*nm.y);
 		test_(abs(nm.x*nm.x + nm.y*nm.y - 1.0f)  < 0.0001f);
 	}
 };

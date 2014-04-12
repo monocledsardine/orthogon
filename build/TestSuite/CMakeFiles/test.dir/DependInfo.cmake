@@ -4,20 +4,20 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/Owner/Documents/GitHub/orthogon/TestSuite/Game_Test.cpp" "C:/Users/Owner/Documents/GitHub/orthogon/build/TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj"
-  "C:/Users/Owner/Documents/GitHub/orthogon/TestSuite/Suite.cpp" "C:/Users/Owner/Documents/GitHub/orthogon/build/TestSuite/CMakeFiles/test.dir/Suite.cpp.obj"
-  "C:/Users/Owner/Documents/GitHub/orthogon/TestSuite/Test.cpp" "C:/Users/Owner/Documents/GitHub/orthogon/build/TestSuite/CMakeFiles/test.dir/Test.cpp.obj"
+  "C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Game_Test.cpp" "C:/Users/owner/Documents/GitHub/orthogon/build/TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj"
+  "C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Suite.cpp" "C:/Users/owner/Documents/GitHub/orthogon/build/TestSuite/CMakeFiles/test.dir/Suite.cpp.obj"
+  "C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Test.cpp" "C:/Users/owner/Documents/GitHub/orthogon/build/TestSuite/CMakeFiles/test.dir/Test.cpp.obj"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
 # Targets to which this target links.
 SET(CMAKE_TARGET_LINKED_INFO_FILES
-  "C:/Users/Owner/Documents/GitHub/orthogon/build/CMakeFiles/ORTHO_LIB.dir/DependInfo.cmake"
+  "C:/Users/owner/Documents/GitHub/orthogon/build/CMakeFiles/ORTHO_LIB.dir/DependInfo.cmake"
   )
 
 # The include file search paths:
 SET(CMAKE_C_TARGET_INCLUDE_PATH
-  "C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/include"
+  "C:/Users/owner/Documents/GitHub/SFML/include"
   )
 SET(CMAKE_CXX_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})
 SET(CMAKE_Fortran_TARGET_INCLUDE_PATH ${CMAKE_C_TARGET_INCLUDE_PATH})

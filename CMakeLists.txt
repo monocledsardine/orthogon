@@ -33,6 +33,7 @@ set(ORTHO_SRC
 		Animation.h
 		DottedPath.cpp
 		DottedPath.h
+		ImageRef.h
 		Path.cpp
 		Path.h
 		Player.cpp
@@ -40,18 +41,23 @@ set(ORTHO_SRC
 		Room.h
 		TiledImage.cpp
 		TiledImage.h
+		VectorHelper.h
 )
 
 add_library(ORTHO_LIB ${ORTHO_SRC})
 
 add_executable(Orthogon Main.cpp)
+add_executable(JumpTest JumpTest.cpp)
+
 target_link_libraries(Orthogon ORTHO_LIB ${SFML_LIBRARIES})
+target_link_libraries(JumpTest ORTHO_LIB ${SFML_LIBRARIES})
 
 # Make sure the install prefix is in the graphical prompt
 set(CMAKE_INSTALL_PREFIX "${PROJECT_SOURCE_DIR}/../bin" CACHE FILEPATH "Install location of the project")
 
 # To install the game, we need 1. The .exe, 2. SFML dlls, ...
 install(TARGETS Orthogon DESTINATION .)
+install(TARGETS JumpTest DESTINATION .)
 install(FILES ${SFML_DIR}/bin/sfml-system-2.dll
 			${SFML_DIR}/bin/sfml-window-2.dll
 			${SFML_DIR}/bin/sfml-graphics-2.dll

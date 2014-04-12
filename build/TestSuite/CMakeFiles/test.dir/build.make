@@ -25,22 +25,22 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake 2.8\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake 2.8\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = "C:\Program Files\CMake 2.8\bin\cmake-gui.exe"
+CMAKE_EDIT_COMMAND = "C:\Program Files (x86)\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Owner\Documents\GitHub\orthogon
+CMAKE_SOURCE_DIR = C:\Users\owner\Documents\GitHub\orthogon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Owner\Documents\GitHub\orthogon\build
+CMAKE_BINARY_DIR = C:\Users\owner\Documents\GitHub\orthogon\build
 
 # Include any dependencies generated for this target.
 include TestSuite/CMakeFiles/test.dir/depend.make
@@ -54,17 +54,17 @@ include TestSuite/CMakeFiles/test.dir/flags.make
 TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: TestSuite/CMakeFiles/test.dir/flags.make
 TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: TestSuite/CMakeFiles/test.dir/includes_CXX.rsp
 TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: ../TestSuite/Game_Test.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj"
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\test.dir\Game_Test.cpp.obj -c C:\Users\Owner\Documents\GitHub\orthogon\TestSuite\Game_Test.cpp
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\test.dir\Game_Test.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\TestSuite\Game_Test.cpp
 
 TestSuite/CMakeFiles/test.dir/Game_Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/Game_Test.cpp.i"
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Owner\Documents\GitHub\orthogon\TestSuite\Game_Test.cpp > CMakeFiles\test.dir\Game_Test.cpp.i
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\owner\Documents\GitHub\orthogon\TestSuite\Game_Test.cpp > CMakeFiles\test.dir\Game_Test.cpp.i
 
 TestSuite/CMakeFiles/test.dir/Game_Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/Game_Test.cpp.s"
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Owner\Documents\GitHub\orthogon\TestSuite\Game_Test.cpp -o CMakeFiles\test.dir\Game_Test.cpp.s
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\owner\Documents\GitHub\orthogon\TestSuite\Game_Test.cpp -o CMakeFiles\test.dir\Game_Test.cpp.s
 
 TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj.requires:
 .PHONY : TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj.requires
@@ -78,17 +78,17 @@ TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj.provides.build: TestSuite/CMakeF
 TestSuite/CMakeFiles/test.dir/Test.cpp.obj: TestSuite/CMakeFiles/test.dir/flags.make
 TestSuite/CMakeFiles/test.dir/Test.cpp.obj: TestSuite/CMakeFiles/test.dir/includes_CXX.rsp
 TestSuite/CMakeFiles/test.dir/Test.cpp.obj: ../TestSuite/Test.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object TestSuite/CMakeFiles/test.dir/Test.cpp.obj"
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\test.dir\Test.cpp.obj -c C:\Users\Owner\Documents\GitHub\orthogon\TestSuite\Test.cpp
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\test.dir\Test.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\TestSuite\Test.cpp
 
 TestSuite/CMakeFiles/test.dir/Test.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/Test.cpp.i"
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Owner\Documents\GitHub\orthogon\TestSuite\Test.cpp > CMakeFiles\test.dir\Test.cpp.i
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\owner\Documents\GitHub\orthogon\TestSuite\Test.cpp > CMakeFiles\test.dir\Test.cpp.i
 
 TestSuite/CMakeFiles/test.dir/Test.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/Test.cpp.s"
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Owner\Documents\GitHub\orthogon\TestSuite\Test.cpp -o CMakeFiles\test.dir\Test.cpp.s
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\owner\Documents\GitHub\orthogon\TestSuite\Test.cpp -o CMakeFiles\test.dir\Test.cpp.s
 
 TestSuite/CMakeFiles/test.dir/Test.cpp.obj.requires:
 .PHONY : TestSuite/CMakeFiles/test.dir/Test.cpp.obj.requires
@@ -102,17 +102,17 @@ TestSuite/CMakeFiles/test.dir/Test.cpp.obj.provides.build: TestSuite/CMakeFiles/
 TestSuite/CMakeFiles/test.dir/Suite.cpp.obj: TestSuite/CMakeFiles/test.dir/flags.make
 TestSuite/CMakeFiles/test.dir/Suite.cpp.obj: TestSuite/CMakeFiles/test.dir/includes_CXX.rsp
 TestSuite/CMakeFiles/test.dir/Suite.cpp.obj: ../TestSuite/Suite.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object TestSuite/CMakeFiles/test.dir/Suite.cpp.obj"
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\test.dir\Suite.cpp.obj -c C:\Users\Owner\Documents\GitHub\orthogon\TestSuite\Suite.cpp
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\test.dir\Suite.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\TestSuite\Suite.cpp
 
 TestSuite/CMakeFiles/test.dir/Suite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test.dir/Suite.cpp.i"
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Owner\Documents\GitHub\orthogon\TestSuite\Suite.cpp > CMakeFiles\test.dir\Suite.cpp.i
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\owner\Documents\GitHub\orthogon\TestSuite\Suite.cpp > CMakeFiles\test.dir\Suite.cpp.i
 
 TestSuite/CMakeFiles/test.dir/Suite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test.dir/Suite.cpp.s"
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Owner\Documents\GitHub\orthogon\TestSuite\Suite.cpp -o CMakeFiles\test.dir\Suite.cpp.s
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite && C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\owner\Documents\GitHub\orthogon\TestSuite\Suite.cpp -o CMakeFiles\test.dir\Suite.cpp.s
 
 TestSuite/CMakeFiles/test.dir/Suite.cpp.obj.requires:
 .PHONY : TestSuite/CMakeFiles/test.dir/Suite.cpp.obj.requires
@@ -137,14 +137,14 @@ TestSuite/test.exe: TestSuite/CMakeFiles/test.dir/Test.cpp.obj
 TestSuite/test.exe: TestSuite/CMakeFiles/test.dir/Suite.cpp.obj
 TestSuite/test.exe: TestSuite/CMakeFiles/test.dir/build.make
 TestSuite/test.exe: libORTHO_LIB.a
-TestSuite/test.exe: C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/lib/libsfml-system.a
-TestSuite/test.exe: C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/lib/libsfml-window.a
-TestSuite/test.exe: C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/lib/libsfml-graphics.a
-TestSuite/test.exe: C:/Users/Owner/Documents/GitHub/crossing-over/build/SFML/lib/libsfml-main.a
+TestSuite/test.exe: C:/Users/owner/Documents/GitHub/SFML/lib/libsfml-system.a
+TestSuite/test.exe: C:/Users/owner/Documents/GitHub/SFML/lib/libsfml-window.a
+TestSuite/test.exe: C:/Users/owner/Documents/GitHub/SFML/lib/libsfml-graphics.a
+TestSuite/test.exe: C:/Users/owner/Documents/GitHub/SFML/lib/libsfml-main.a
 TestSuite/test.exe: TestSuite/CMakeFiles/test.dir/objects1.rsp
 TestSuite/test.exe: TestSuite/CMakeFiles/test.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable test.exe"
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test.dir\link.txt --verbose=$(VERBOSE)
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\test.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 TestSuite/CMakeFiles/test.dir/build: TestSuite/test.exe
@@ -156,10 +156,10 @@ TestSuite/CMakeFiles/test.dir/requires: TestSuite/CMakeFiles/test.dir/Suite.cpp.
 .PHONY : TestSuite/CMakeFiles/test.dir/requires
 
 TestSuite/CMakeFiles/test.dir/clean:
-	cd /d C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite && $(CMAKE_COMMAND) -P CMakeFiles\test.dir\cmake_clean.cmake
+	cd /d C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite && $(CMAKE_COMMAND) -P CMakeFiles\test.dir\cmake_clean.cmake
 .PHONY : TestSuite/CMakeFiles/test.dir/clean
 
 TestSuite/CMakeFiles/test.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Owner\Documents\GitHub\orthogon C:\Users\Owner\Documents\GitHub\orthogon\TestSuite C:\Users\Owner\Documents\GitHub\orthogon\build C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite C:\Users\Owner\Documents\GitHub\orthogon\build\TestSuite\CMakeFiles\test.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\owner\Documents\GitHub\orthogon C:\Users\owner\Documents\GitHub\orthogon\TestSuite C:\Users\owner\Documents\GitHub\orthogon\build C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite C:\Users\owner\Documents\GitHub\orthogon\build\TestSuite\CMakeFiles\test.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : TestSuite/CMakeFiles/test.dir/depend
 

@@ -1,14 +1,14 @@
 #ifndef ACTOR_H
 #define ACTOR_H
 
-#include <SFML/Graphics/Sprite.hpp>
 #include <SFML/Graphics/Rect.hpp>
 #include <SFML/System/Time.hpp>
+#include "Animation.h"
 
 class Actor
 {
 public:
-	sf::Sprite sprite;
+	Animation sprite;
 	sf::IntRect mask;
 	void setPosition(float x, float y);
 	void setPosition(const sf::Vector2f& vec);

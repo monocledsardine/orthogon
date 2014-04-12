@@ -55,7 +55,10 @@ sf::Vector2f StraightBlock::pos(float t) const
 sf::Vector2f StraightBlock::norm(float t) const
 {
 	//The normal is the same at all points on the line
-	return sf::Vector2f(-scaling.y*scaleFactor, scaling.x*scaleFactor);
+	sf::Vector2f result = pos(1.0f) - pos(0.0f);
+	return sf::Vector2f(-result.y, result.x);
+//	sf::Vector2f result(scaling.y*scaleFactor,-scaling.x*scaleFactor);	
+//	return sf::Vector2f(scaling.y*scaleFactor,-scaling.x*scaleFactor);
 }
 
 float StraightBlock::length() const

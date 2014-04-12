@@ -1,0 +1,3 @@
+"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f CMakeFiles\JumpTest.dir/objects.a
+C:\MinGW\bin\ar.exe cr CMakeFiles\JumpTest.dir/objects.a @CMakeFiles\JumpTest.dir\objects1.rsp
+C:\MinGW\bin\g++.exe      -Wl,--whole-archive CMakeFiles\JumpTest.dir/objects.a -Wl,--no-whole-archive  -o JumpTest.exe -Wl,--out-implib,libJumpTest.dll.a -Wl,--major-image-version,0,--minor-image-version,0  libORTHO_LIB.a C:\Users\owner\Documents\GitHub\SFML\lib\libsfml-system.a C:\Users\owner\Documents\GitHub\SFML\lib\libsfml-window.a C:\Users\owner\Documents\GitHub\SFML\lib\libsfml-graphics.a C:\Users\owner\Documents\GitHub\SFML\lib\libsfml-main.a -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32 

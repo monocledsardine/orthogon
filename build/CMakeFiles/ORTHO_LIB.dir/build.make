@@ -25,22 +25,22 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake 2.8\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake 2.8\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = "C:\Program Files\CMake 2.8\bin\cmake-gui.exe"
+CMAKE_EDIT_COMMAND = "C:\Program Files (x86)\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Owner\Documents\GitHub\orthogon
+CMAKE_SOURCE_DIR = C:\Users\owner\Documents\GitHub\orthogon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Owner\Documents\GitHub\orthogon\build
+CMAKE_BINARY_DIR = C:\Users\owner\Documents\GitHub\orthogon\build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/ORTHO_LIB.dir/depend.make
@@ -54,17 +54,17 @@ include CMakeFiles/ORTHO_LIB.dir/flags.make
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: CMakeFiles/ORTHO_LIB.dir/flags.make
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: CMakeFiles/ORTHO_LIB.dir/includes_CXX.rsp
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: ../Actor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\Actor.cpp.obj -c C:\Users\Owner\Documents\GitHub\orthogon\Actor.cpp
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\Actor.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\Actor.cpp
 
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORTHO_LIB.dir/Actor.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Owner\Documents\GitHub\orthogon\Actor.cpp > CMakeFiles\ORTHO_LIB.dir\Actor.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\owner\Documents\GitHub\orthogon\Actor.cpp > CMakeFiles\ORTHO_LIB.dir\Actor.cpp.i
 
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORTHO_LIB.dir/Actor.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Owner\Documents\GitHub\orthogon\Actor.cpp -o CMakeFiles\ORTHO_LIB.dir\Actor.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\owner\Documents\GitHub\orthogon\Actor.cpp -o CMakeFiles\ORTHO_LIB.dir\Actor.cpp.s
 
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj.requires:
 .PHONY : CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj.requires
@@ -78,17 +78,17 @@ CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj.provides.build: CMakeFiles/ORTHO_LIB.dir/
 CMakeFiles/ORTHO_LIB.dir/Angle.cpp.obj: CMakeFiles/ORTHO_LIB.dir/flags.make
 CMakeFiles/ORTHO_LIB.dir/Angle.cpp.obj: CMakeFiles/ORTHO_LIB.dir/includes_CXX.rsp
 CMakeFiles/ORTHO_LIB.dir/Angle.cpp.obj: ../Angle.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ORTHO_LIB.dir/Angle.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\Angle.cpp.obj -c C:\Users\Owner\Documents\GitHub\orthogon\Angle.cpp
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\Angle.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\Angle.cpp
 
 CMakeFiles/ORTHO_LIB.dir/Angle.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORTHO_LIB.dir/Angle.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Owner\Documents\GitHub\orthogon\Angle.cpp > CMakeFiles\ORTHO_LIB.dir\Angle.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\owner\Documents\GitHub\orthogon\Angle.cpp > CMakeFiles\ORTHO_LIB.dir\Angle.cpp.i
 
 CMakeFiles/ORTHO_LIB.dir/Angle.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORTHO_LIB.dir/Angle.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Owner\Documents\GitHub\orthogon\Angle.cpp -o CMakeFiles\ORTHO_LIB.dir\Angle.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\owner\Documents\GitHub\orthogon\Angle.cpp -o CMakeFiles\ORTHO_LIB.dir\Angle.cpp.s
 
 CMakeFiles/ORTHO_LIB.dir/Angle.cpp.obj.requires:
 .PHONY : CMakeFiles/ORTHO_LIB.dir/Angle.cpp.obj.requires
@@ -102,17 +102,17 @@ CMakeFiles/ORTHO_LIB.dir/Angle.cpp.obj.provides.build: CMakeFiles/ORTHO_LIB.dir/
 CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: CMakeFiles/ORTHO_LIB.dir/flags.make
 CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: CMakeFiles/ORTHO_LIB.dir/includes_CXX.rsp
 CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: ../Animation.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\Animation.cpp.obj -c C:\Users\Owner\Documents\GitHub\orthogon\Animation.cpp
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\Animation.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\Animation.cpp
 
 CMakeFiles/ORTHO_LIB.dir/Animation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORTHO_LIB.dir/Animation.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Owner\Documents\GitHub\orthogon\Animation.cpp > CMakeFiles\ORTHO_LIB.dir\Animation.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\owner\Documents\GitHub\orthogon\Animation.cpp > CMakeFiles\ORTHO_LIB.dir\Animation.cpp.i
 
 CMakeFiles/ORTHO_LIB.dir/Animation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORTHO_LIB.dir/Animation.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Owner\Documents\GitHub\orthogon\Animation.cpp -o CMakeFiles\ORTHO_LIB.dir\Animation.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\owner\Documents\GitHub\orthogon\Animation.cpp -o CMakeFiles\ORTHO_LIB.dir\Animation.cpp.s
 
 CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj.requires:
 .PHONY : CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj.requires
@@ -126,17 +126,17 @@ CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj.provides.build: CMakeFiles/ORTHO_LIB.
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: CMakeFiles/ORTHO_LIB.dir/flags.make
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: CMakeFiles/ORTHO_LIB.dir/includes_CXX.rsp
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: ../DottedPath.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_4)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\DottedPath.cpp.obj -c C:\Users\Owner\Documents\GitHub\orthogon\DottedPath.cpp
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\DottedPath.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\DottedPath.cpp
 
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Owner\Documents\GitHub\orthogon\DottedPath.cpp > CMakeFiles\ORTHO_LIB.dir\DottedPath.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\owner\Documents\GitHub\orthogon\DottedPath.cpp > CMakeFiles\ORTHO_LIB.dir\DottedPath.cpp.i
 
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Owner\Documents\GitHub\orthogon\DottedPath.cpp -o CMakeFiles\ORTHO_LIB.dir\DottedPath.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\owner\Documents\GitHub\orthogon\DottedPath.cpp -o CMakeFiles\ORTHO_LIB.dir\DottedPath.cpp.s
 
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj.requires:
 .PHONY : CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj.requires
@@ -150,17 +150,17 @@ CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj.provides.build: CMakeFiles/ORTHO_LIB
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: CMakeFiles/ORTHO_LIB.dir/flags.make
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: CMakeFiles/ORTHO_LIB.dir/includes_CXX.rsp
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: ../Path.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_5)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\Path.cpp.obj -c C:\Users\Owner\Documents\GitHub\orthogon\Path.cpp
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\Path.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\Path.cpp
 
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORTHO_LIB.dir/Path.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Owner\Documents\GitHub\orthogon\Path.cpp > CMakeFiles\ORTHO_LIB.dir\Path.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\owner\Documents\GitHub\orthogon\Path.cpp > CMakeFiles\ORTHO_LIB.dir\Path.cpp.i
 
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORTHO_LIB.dir/Path.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Owner\Documents\GitHub\orthogon\Path.cpp -o CMakeFiles\ORTHO_LIB.dir\Path.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\owner\Documents\GitHub\orthogon\Path.cpp -o CMakeFiles\ORTHO_LIB.dir\Path.cpp.s
 
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj.requires:
 .PHONY : CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj.requires
@@ -174,17 +174,17 @@ CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj.provides.build: CMakeFiles/ORTHO_LIB.dir/P
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: CMakeFiles/ORTHO_LIB.dir/flags.make
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: CMakeFiles/ORTHO_LIB.dir/includes_CXX.rsp
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../Player.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\Player.cpp.obj -c C:\Users\Owner\Documents\GitHub\orthogon\Player.cpp
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\Player.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\Player.cpp
 
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORTHO_LIB.dir/Player.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Owner\Documents\GitHub\orthogon\Player.cpp > CMakeFiles\ORTHO_LIB.dir\Player.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\owner\Documents\GitHub\orthogon\Player.cpp > CMakeFiles\ORTHO_LIB.dir\Player.cpp.i
 
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORTHO_LIB.dir/Player.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Owner\Documents\GitHub\orthogon\Player.cpp -o CMakeFiles\ORTHO_LIB.dir\Player.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\owner\Documents\GitHub\orthogon\Player.cpp -o CMakeFiles\ORTHO_LIB.dir\Player.cpp.s
 
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj.requires:
 .PHONY : CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj.requires
@@ -198,17 +198,17 @@ CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj.provides.build: CMakeFiles/ORTHO_LIB.dir
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: CMakeFiles/ORTHO_LIB.dir/flags.make
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: CMakeFiles/ORTHO_LIB.dir/includes_CXX.rsp
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: ../TiledImage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj"
-	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\TiledImage.cpp.obj -c C:\Users\Owner\Documents\GitHub\orthogon\TiledImage.cpp
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\TiledImage.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\TiledImage.cpp
 
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.i"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\Owner\Documents\GitHub\orthogon\TiledImage.cpp > CMakeFiles\ORTHO_LIB.dir\TiledImage.cpp.i
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\owner\Documents\GitHub\orthogon\TiledImage.cpp > CMakeFiles\ORTHO_LIB.dir\TiledImage.cpp.i
 
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.s"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\Owner\Documents\GitHub\orthogon\TiledImage.cpp -o CMakeFiles\ORTHO_LIB.dir\TiledImage.cpp.s
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\owner\Documents\GitHub\orthogon\TiledImage.cpp -o CMakeFiles\ORTHO_LIB.dir\TiledImage.cpp.s
 
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj.requires:
 .PHONY : CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj.requires
@@ -263,6 +263,6 @@ CMakeFiles/ORTHO_LIB.dir/clean:
 .PHONY : CMakeFiles/ORTHO_LIB.dir/clean
 
 CMakeFiles/ORTHO_LIB.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Owner\Documents\GitHub\orthogon C:\Users\Owner\Documents\GitHub\orthogon C:\Users\Owner\Documents\GitHub\orthogon\build C:\Users\Owner\Documents\GitHub\orthogon\build C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles\ORTHO_LIB.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\owner\Documents\GitHub\orthogon C:\Users\owner\Documents\GitHub\orthogon C:\Users\owner\Documents\GitHub\orthogon\build C:\Users\owner\Documents\GitHub\orthogon\build C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles\ORTHO_LIB.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/ORTHO_LIB.dir/depend
 

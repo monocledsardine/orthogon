@@ -5,6 +5,7 @@
 #include <SFML/System/Vector2.hpp>
 #include <SFML/Graphics/Rect.hpp>
 #include <SFML/Graphics/Image.hpp>
+#include <SFML/Graphics/Texture.hpp>
 
 /*	Dimensional properties of a single tile. Can also
 	be used as a parametrization of a set of uniform
@@ -13,10 +14,11 @@
 class TileParams
 {
 public:
-	TileParams (sf::Vector2u prop = sf::Vector2u(0,0), 
+	TileParams (sf::Vector2u prop = sf::Vector2u(0,0),
+				sf::Vector2u orig = sf::Vector2u(0,0),
 				sf::Vector2u offs = sf::Vector2u(0,0), 
 				sf::Vector2u padd = sf::Vector2u(0,0))
-		: proportions(prop), offset(offs), padding(padd)
+		: proportions(prop), offset(offs), padding(padd), origin(orig)
 	{}
 
 	/* 	The size of each tile 
@@ -32,6 +34,10 @@ public:
 		bottom sides
 	*/
 	sf::Vector2u padding;
+	
+	/*	Center point for transformations
+	*/
+	sf::Vector2u origin;
 
 	/*	Calculates the number of tiles required to 
 		populate a given width
@@ -74,6 +80,7 @@ public:
 		unbounded height.
 	*/
 	TileSet(const TileParams&, int width, int height, int max = 0);
+	sf::Vector2u origin;
 };
 
 /* 	An implementation of an sf::Image which includes
@@ -87,6 +94,15 @@ class TiledImage :
 public:
 	TiledImage();
 	TiledImage(const std::string& filename, const TileParams& params);
+	void loadTiles(const TileSet&);
+	TileSet tiles;
+};
+
+class TiledTexture :
+	public sf::Texture
+{
+public:
+	TiledTexture();
 	void loadTiles(const TileSet&);
 	TileSet tiles;
 };

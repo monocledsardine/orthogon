@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/Owner/Documents/GitHub/orthogon/TestSuite
+# Install script for directory: C:/Users/owner/Documents/GitHub/orthogon/TestSuite
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "C:/Users/Owner/Documents/GitHub/orthogon/bin")
+  SET(CMAKE_INSTALL_PREFIX "C:/Users/owner/Documents/GitHub/orthogon/bin")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -28,7 +28,7 @@ IF(NOT CMAKE_INSTALL_COMPONENT)
 ENDIF(NOT CMAKE_INSTALL_COMPONENT)
 
 IF(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "C:/Users/Owner/Documents/GitHub/orthogon/build/TestSuite/test.exe")
+  FILE(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE EXECUTABLE FILES "C:/Users/owner/Documents/GitHub/orthogon/build/TestSuite/test.exe")
   IF(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./test.exe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/./test.exe")
     IF(CMAKE_INSTALL_DO_STRIP)

@@ -29,22 +29,22 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\CMake 2.8\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\CMake 2.8\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The program to use to edit the cache.
-CMAKE_EDIT_COMMAND = "C:\Program Files\CMake 2.8\bin\cmake-gui.exe"
+CMAKE_EDIT_COMMAND = "C:\Program Files (x86)\CMake 2.8\bin\cmake-gui.exe"
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Owner\Documents\GitHub\orthogon
+CMAKE_SOURCE_DIR = C:\Users\owner\Documents\GitHub\orthogon
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Owner\Documents\GitHub\orthogon\build
+CMAKE_BINARY_DIR = C:\Users\owner\Documents\GitHub\orthogon\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -52,7 +52,7 @@ CMAKE_BINARY_DIR = C:\Users\Owner\Documents\GitHub\orthogon\build
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	"C:\Program Files\CMake 2.8\bin\cmake-gui.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files (x86)\CMake 2.8\bin\cmake-gui.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -62,19 +62,19 @@ edit_cache/fast: edit_cache
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\CMake 2.8\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	"C:\Program Files\CMake 2.8\bin\cmake.exe" -P cmake_install.cmake
+	"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	"C:\Program Files\CMake 2.8\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
@@ -84,7 +84,7 @@ install/local/fast: install/local
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	"C:\Program Files\CMake 2.8\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
@@ -103,7 +103,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\CMake 2.8\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files (x86)\CMake 2.8\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -112,9 +112,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Owner\Documents\GitHub\orthogon\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -140,6 +140,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named JumpTest
+
+# Build rule for target.
+JumpTest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 JumpTest
+.PHONY : JumpTest
+
+# fast build rule for target.
+JumpTest/fast:
+	$(MAKE) -f CMakeFiles\JumpTest.dir\build.make CMakeFiles/JumpTest.dir/build
+.PHONY : JumpTest/fast
 
 #=============================================================================
 # Target rules for targets named ORTHO_LIB
@@ -276,6 +289,30 @@ DottedPath.cpp.s:
 	$(MAKE) -f CMakeFiles\ORTHO_LIB.dir\build.make CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.s
 .PHONY : DottedPath.cpp.s
 
+JumpTest.obj: JumpTest.cpp.obj
+.PHONY : JumpTest.obj
+
+# target to build an object file
+JumpTest.cpp.obj:
+	$(MAKE) -f CMakeFiles\JumpTest.dir\build.make CMakeFiles/JumpTest.dir/JumpTest.cpp.obj
+.PHONY : JumpTest.cpp.obj
+
+JumpTest.i: JumpTest.cpp.i
+.PHONY : JumpTest.i
+
+# target to preprocess a source file
+JumpTest.cpp.i:
+	$(MAKE) -f CMakeFiles\JumpTest.dir\build.make CMakeFiles/JumpTest.dir/JumpTest.cpp.i
+.PHONY : JumpTest.cpp.i
+
+JumpTest.s: JumpTest.cpp.s
+.PHONY : JumpTest.s
+
+# target to generate assembly for a file
+JumpTest.cpp.s:
+	$(MAKE) -f CMakeFiles\JumpTest.dir\build.make CMakeFiles/JumpTest.dir/JumpTest.cpp.s
+.PHONY : JumpTest.cpp.s
+
 Main.obj: Main.cpp.obj
 .PHONY : Main.obj
 
@@ -378,6 +415,7 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... JumpTest
 	@echo ... ORTHO_LIB
 	@echo ... Orthogon
 	@echo ... edit_cache
@@ -399,6 +437,9 @@ help:
 	@echo ... DottedPath.obj
 	@echo ... DottedPath.i
 	@echo ... DottedPath.s
+	@echo ... JumpTest.obj
+	@echo ... JumpTest.i
+	@echo ... JumpTest.s
 	@echo ... Main.obj
 	@echo ... Main.i
 	@echo ... Main.s
