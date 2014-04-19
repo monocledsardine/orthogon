@@ -554,45 +554,45 @@ SFML/Config.hpp
 
 C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/WindowStyle.hpp
 
-C:/Users/owner/Documents/GitHub/orthogon/Actor.h
+C:/Users/owner/Documents/GitHub/orthogon/Actor.hpp
 SFML/Graphics/Rect.hpp
 -
 SFML/System/Time.hpp
 -
-Animation.h
-C:/Users/owner/Documents/GitHub/orthogon/Animation.h
+Animation.hpp
+C:/Users/owner/Documents/GitHub/orthogon/Animation.hpp
 
-C:/Users/owner/Documents/GitHub/orthogon/Angle.h
+C:/Users/owner/Documents/GitHub/orthogon/Angle.hpp
 cmath
 -
 
-C:/Users/owner/Documents/GitHub/orthogon/Animation.h
+C:/Users/owner/Documents/GitHub/orthogon/Animation.hpp
 SFML/System/Time.hpp
 -
 SFML/Graphics/Texture.hpp
 -
 SFML/Graphics/Sprite.hpp
 -
-TiledImage.h
-C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
+TiledImage.hpp
+C:/Users/owner/Documents/GitHub/orthogon/TiledImage.hpp
 
-C:/Users/owner/Documents/GitHub/orthogon/DottedPath.h
+C:/Users/owner/Documents/GitHub/orthogon/DottedPath.hpp
 SFML/Graphics/Drawable.hpp
 -
 SFML/Graphics/RenderTexture.hpp
 -
 SFML/Graphics/Sprite.hpp
 -
-Path.h
-C:/Users/owner/Documents/GitHub/orthogon/Path.h
-TiledImage.h
-C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
+Path.hpp
+C:/Users/owner/Documents/GitHub/orthogon/Path.hpp
+TiledImage.hpp
+C:/Users/owner/Documents/GitHub/orthogon/TiledImage.hpp
 deque
 -
 
-C:/Users/owner/Documents/GitHub/orthogon/ImageRef.h
-TiledImage.h
-C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
+C:/Users/owner/Documents/GitHub/orthogon/ImageRef.hpp
+TiledImage.hpp
+C:/Users/owner/Documents/GitHub/orthogon/TiledImage.hpp
 string
 -
 map
@@ -603,12 +603,12 @@ SFML/System.hpp
 -
 SFML/Graphics.hpp
 -
-DottedPath.h
-C:/Users/owner/Documents/GitHub/orthogon/DottedPath.h
-Player.h
-C:/Users/owner/Documents/GitHub/orthogon/Player.h
-ImageRef.h
-C:/Users/owner/Documents/GitHub/orthogon/ImageRef.h
+DottedPath.hpp
+C:/Users/owner/Documents/GitHub/orthogon/DottedPath.hpp
+Player.hpp
+C:/Users/owner/Documents/GitHub/orthogon/Player.hpp
+ImageRef.hpp
+C:/Users/owner/Documents/GitHub/orthogon/ImageRef.hpp
 stdio.h
 -
 iostream
@@ -616,25 +616,25 @@ iostream
 sstream
 -
 
-C:/Users/owner/Documents/GitHub/orthogon/Path.h
-Angle.h
-C:/Users/owner/Documents/GitHub/orthogon/Angle.h
+C:/Users/owner/Documents/GitHub/orthogon/Path.hpp
+Angle.hpp
+C:/Users/owner/Documents/GitHub/orthogon/Angle.hpp
 SFML/Graphics/VertexArray.hpp
 -
 deque
 -
 
-C:/Users/owner/Documents/GitHub/orthogon/Player.h
+C:/Users/owner/Documents/GitHub/orthogon/Player.hpp
 SFML/Graphics/Texture.hpp
 -
-Actor.h
-C:/Users/owner/Documents/GitHub/orthogon/Actor.h
-Path.h
-C:/Users/owner/Documents/GitHub/orthogon/Path.h
-ImageRef.h
-C:/Users/owner/Documents/GitHub/orthogon/ImageRef.h
+Actor.hpp
+C:/Users/owner/Documents/GitHub/orthogon/Actor.hpp
+Path.hpp
+C:/Users/owner/Documents/GitHub/orthogon/Path.hpp
+ImageRef.hpp
+C:/Users/owner/Documents/GitHub/orthogon/ImageRef.hpp
 
-C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
+C:/Users/owner/Documents/GitHub/orthogon/TiledImage.hpp
 deque
 -
 SFML/System/Vector2.hpp

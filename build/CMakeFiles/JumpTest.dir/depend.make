@@ -66,13 +66,13 @@ CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/i
 CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Window.hpp
 CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/WindowStyle.hpp
-CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../Actor.h
-CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../Angle.h
-CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../Animation.h
-CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../DottedPath.h
-CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../ImageRef.h
+CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../Actor.hpp
+CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../Angle.hpp
+CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../Animation.hpp
+CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../DottedPath.hpp
+CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../ImageRef.hpp
 CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../JumpTest.cpp
-CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../Path.h
-CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../Player.h
-CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../TiledImage.h
+CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../Path.hpp
+CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../Player.hpp
+CMakeFiles/JumpTest.dir/JumpTest.cpp.obj: ../TiledImage.hpp
 

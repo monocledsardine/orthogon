@@ -1,6 +1,6 @@
 #ifndef IMAGEREF_H
 #define IMAGEREF_H
-#include "TiledImage.h"
+#include "TiledImage.hpp"
 #include <string>
 #include <map>
 

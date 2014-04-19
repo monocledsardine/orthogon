@@ -16,8 +16,8 @@ TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/VertexArray.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
- C:/Users/owner/Documents/GitHub/orthogon/Angle.h
- C:/Users/owner/Documents/GitHub/orthogon/Path.h
+ C:/Users/owner/Documents/GitHub/orthogon/Angle.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/Path.hpp
  C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Game_Test.cpp
  C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Suite.h
  C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Test.h

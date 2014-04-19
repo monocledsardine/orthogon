@@ -1,4 +1,4 @@
-#include "ImageRef.h"
+#include "ImageRef.hpp"
 
 ImageRef::name& ImageRef::name::operator++(ImageRef::name& a)
 {

@@ -1,9 +1,9 @@
 #include <SFML/System.hpp>
 #include <SFML/Graphics.hpp>
 
-#include "DottedPath.h"
-#include "Player.h"
-#include "ImageRef.h"
+#include "DottedPath.hpp"
+#include "Player.hpp"
+#include "ImageRef.hpp"
 
 Path makePath()
 {
@@ -41,10 +41,10 @@ int main()
 	player.go();
 	
 	player.GRAVITY = 0.00005f;
-					player.LOWGRAVITY = 0.00001f;
-					player.FRICTION = 0.1f;
-					player.MOVESPEED = 60.0f;
-					player.JUMPSPEED = 200.0f;
+	player.LOWGRAVITY = 0.00001f;
+	player.FRICTION = 0.1f;
+	player.MOVESPEED = 60.0f;
+	player.JUMPSPEED = 200.0f;
 	
 	sf::Clock clock;
 	

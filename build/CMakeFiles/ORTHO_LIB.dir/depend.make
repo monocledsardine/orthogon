@@ -6,10 +6,12 @@ CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/inc
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Color.hpp
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Drawable.hpp
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Export.hpp
+CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Image.hpp
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Rect.hpp
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Rect.inl
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/RenderStates.hpp
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Sprite.hpp
+CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Texture.hpp
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Transform.hpp
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Transformable.hpp
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Vertex.hpp
@@ -17,11 +19,15 @@ CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/inc
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Time.hpp
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.hpp
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
+CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Export.hpp
+CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/GlResource.hpp
 CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: ../Actor.cpp
-CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: ../Actor.h
+CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: ../Actor.hpp
+CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: ../Animation.hpp
+CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj: ../TiledImage.hpp
 
 CMakeFiles/ORTHO_LIB.dir/Angle.cpp.obj: ../Angle.cpp
-CMakeFiles/ORTHO_LIB.dir/Angle.cpp.obj: ../Angle.h
+CMakeFiles/ORTHO_LIB.dir/Angle.cpp.obj: ../Angle.hpp
 
 CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Config.hpp
 CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/BlendMode.hpp
@@ -44,8 +50,8 @@ CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: C:/Users/owner/Documents/GitHub/SFML
 CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Export.hpp
 CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/GlResource.hpp
 CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: ../Animation.cpp
-CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: ../Animation.h
-CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: ../TiledImage.h
+CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: ../Animation.hpp
+CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj: ../TiledImage.hpp
 
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Config.hpp
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/BlendMode.hpp
@@ -72,11 +78,11 @@ CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: C:/Users/owner/Documents/GitHub/SFM
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Export.hpp
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/GlResource.hpp
-CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: ../Angle.h
+CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: ../Angle.hpp
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: ../DottedPath.cpp
-CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: ../DottedPath.h
-CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: ../Path.h
-CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: ../TiledImage.h
+CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: ../DottedPath.hpp
+CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: ../Path.hpp
+CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj: ../TiledImage.hpp
 
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Config.hpp
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/BlendMode.hpp
@@ -92,9 +98,9 @@ CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/incl
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/VertexArray.hpp
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.hpp
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
-CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: ../Angle.h
+CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: ../Angle.hpp
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: ../Path.cpp
-CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: ../Path.h
+CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj: ../Path.hpp
 
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Config.hpp
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/BlendMode.hpp
@@ -118,14 +124,21 @@ CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/in
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Export.hpp
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/GlResource.hpp
-CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../Actor.h
-CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../Angle.h
-CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../ImageRef.h
-CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../Path.h
+CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../Actor.hpp
+CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../Angle.hpp
+CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../Animation.hpp
+CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../ImageRef.hpp
+CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../Path.hpp
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../Player.cpp
-CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../Player.h
-CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../TiledImage.h
-CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../VectorHelper.h
+CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../Player.hpp
+CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../TiledImage.hpp
+CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj: ../VectorHelper.hpp
+
+CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj: ../PlayerMotion.cpp
+CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj: ../PlayerMotion.hpp
+
+CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj: ../PlayerState.cpp
+CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj: ../PlayerState.hpp
 
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Config.hpp
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Color.hpp
@@ -139,5 +152,5 @@ CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: C:/Users/owner/Documents/GitHub/SFM
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Export.hpp
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/GlResource.hpp
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: ../TiledImage.cpp
-CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: ../TiledImage.h
+CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: ../TiledImage.hpp
 

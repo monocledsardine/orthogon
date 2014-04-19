@@ -2,9 +2,9 @@
 #define	PLAYER_H
 
 #include <SFML/Graphics/Texture.hpp>
-#include "Actor.h"
-#include "Path.h"
-#include "ImageRef.h"
+#include "Actor.hpp"
+#include "Path.hpp"
+#include "ImageRef.hpp"
 
 class Player :
 	public Actor

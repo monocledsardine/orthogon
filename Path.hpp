@@ -1,7 +1,7 @@
 #ifndef PATH_H
 #define PATH_H
 
-#include "Angle.h"
+#include "Angle.hpp"
 #include <SFML/Graphics/VertexArray.hpp>
 #include <deque>
 

@@ -1,9 +1,9 @@
 #include <SFML/System.hpp>
 #include <SFML/Graphics.hpp>
 
-#include "DottedPath.h"
-#include "Player.h"
-#include "ImageRef.h"
+#include "DottedPath.hpp"
+#include "Player.hpp"
+#include "ImageRef.hpp"
 
 Path makePath()
 {

@@ -1,4 +1,4 @@
-#include "DottedPath.h"
+#include "DottedPath.hpp"
 #include <SFML/Graphics/Transform.hpp>
 
 DottedPath::DottedPath() : dotInc(15.0f)

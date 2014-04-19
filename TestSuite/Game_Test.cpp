@@ -2,7 +2,7 @@
 #include <stdio.h>
 #include "Test.h"
 #include "Suite.h"
-#include "../Path.h"
+#include "../Path.hpp"
 
 using namespace std;
 using namespace TestSuite;

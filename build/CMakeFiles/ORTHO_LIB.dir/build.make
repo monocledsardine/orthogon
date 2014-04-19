@@ -195,10 +195,58 @@ CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj.provides: CMakeFiles/ORTHO_LIB.dir/Playe
 
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj.provides.build: CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj
 
+CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj: CMakeFiles/ORTHO_LIB.dir/flags.make
+CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj: CMakeFiles/ORTHO_LIB.dir/includes_CXX.rsp
+CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj: ../PlayerState.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_7)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\PlayerState.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\PlayerState.cpp
+
+CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\owner\Documents\GitHub\orthogon\PlayerState.cpp > CMakeFiles\ORTHO_LIB.dir\PlayerState.cpp.i
+
+CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\owner\Documents\GitHub\orthogon\PlayerState.cpp -o CMakeFiles\ORTHO_LIB.dir\PlayerState.cpp.s
+
+CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj.requires:
+.PHONY : CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj.requires
+
+CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj.provides: CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ORTHO_LIB.dir\build.make CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj.provides.build
+.PHONY : CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj.provides
+
+CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj.provides.build: CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj
+
+CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj: CMakeFiles/ORTHO_LIB.dir/flags.make
+CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj: CMakeFiles/ORTHO_LIB.dir/includes_CXX.rsp
+CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj: ../PlayerMotion.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_8)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj"
+	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\PlayerMotion.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\PlayerMotion.cpp
+
+CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.i"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -E C:\Users\owner\Documents\GitHub\orthogon\PlayerMotion.cpp > CMakeFiles\ORTHO_LIB.dir\PlayerMotion.cpp.i
+
+CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.s"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_FLAGS) -S C:\Users\owner\Documents\GitHub\orthogon\PlayerMotion.cpp -o CMakeFiles\ORTHO_LIB.dir\PlayerMotion.cpp.s
+
+CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj.requires:
+.PHONY : CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj.requires
+
+CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj.provides: CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj.requires
+	$(MAKE) -f CMakeFiles\ORTHO_LIB.dir\build.make CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj.provides.build
+.PHONY : CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj.provides
+
+CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj.provides.build: CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj
+
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: CMakeFiles/ORTHO_LIB.dir/flags.make
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: CMakeFiles/ORTHO_LIB.dir/includes_CXX.rsp
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj: ../TiledImage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report C:\Users\owner\Documents\GitHub\orthogon\build\CMakeFiles $(CMAKE_PROGRESS_9)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj"
 	C:\MinGW\bin\g++.exe   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles\ORTHO_LIB.dir\TiledImage.cpp.obj -c C:\Users\owner\Documents\GitHub\orthogon\TiledImage.cpp
 
@@ -227,6 +275,8 @@ ORTHO_LIB_OBJECTS = \
 "CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj" \
 "CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj" \
 "CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj" \
+"CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj" \
+"CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj" \
 "CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj"
 
 # External object files for target ORTHO_LIB
@@ -238,6 +288,8 @@ libORTHO_LIB.a: CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj
 libORTHO_LIB.a: CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj
 libORTHO_LIB.a: CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj
 libORTHO_LIB.a: CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj
+libORTHO_LIB.a: CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj
+libORTHO_LIB.a: CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj
 libORTHO_LIB.a: CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj
 libORTHO_LIB.a: CMakeFiles/ORTHO_LIB.dir/build.make
 libORTHO_LIB.a: CMakeFiles/ORTHO_LIB.dir/link.txt
@@ -255,6 +307,8 @@ CMakeFiles/ORTHO_LIB.dir/requires: CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj.re
 CMakeFiles/ORTHO_LIB.dir/requires: CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj.requires
 CMakeFiles/ORTHO_LIB.dir/requires: CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj.requires
 CMakeFiles/ORTHO_LIB.dir/requires: CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj.requires
+CMakeFiles/ORTHO_LIB.dir/requires: CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj.requires
+CMakeFiles/ORTHO_LIB.dir/requires: CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj.requires
 CMakeFiles/ORTHO_LIB.dir/requires: CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj.requires
 .PHONY : CMakeFiles/ORTHO_LIB.dir/requires
 

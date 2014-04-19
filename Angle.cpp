@@ -1,4 +1,4 @@
-#include "Angle.h"
+#include "Angle.hpp"
 
 Angle::Angle()
 {

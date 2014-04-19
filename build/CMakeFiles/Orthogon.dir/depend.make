@@ -66,12 +66,13 @@ CMakeFiles/Orthogon.dir/Main.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/inclu
 CMakeFiles/Orthogon.dir/Main.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Window.hpp
 CMakeFiles/Orthogon.dir/Main.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/WindowHandle.hpp
 CMakeFiles/Orthogon.dir/Main.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/WindowStyle.hpp
-CMakeFiles/Orthogon.dir/Main.cpp.obj: ../Actor.h
-CMakeFiles/Orthogon.dir/Main.cpp.obj: ../Angle.h
-CMakeFiles/Orthogon.dir/Main.cpp.obj: ../DottedPath.h
-CMakeFiles/Orthogon.dir/Main.cpp.obj: ../ImageRef.h
+CMakeFiles/Orthogon.dir/Main.cpp.obj: ../Actor.hpp
+CMakeFiles/Orthogon.dir/Main.cpp.obj: ../Angle.hpp
+CMakeFiles/Orthogon.dir/Main.cpp.obj: ../Animation.hpp
+CMakeFiles/Orthogon.dir/Main.cpp.obj: ../DottedPath.hpp
+CMakeFiles/Orthogon.dir/Main.cpp.obj: ../ImageRef.hpp
 CMakeFiles/Orthogon.dir/Main.cpp.obj: ../Main.cpp
-CMakeFiles/Orthogon.dir/Main.cpp.obj: ../Path.h
-CMakeFiles/Orthogon.dir/Main.cpp.obj: ../Player.h
-CMakeFiles/Orthogon.dir/Main.cpp.obj: ../TiledImage.h
+CMakeFiles/Orthogon.dir/Main.cpp.obj: ../Path.hpp
+CMakeFiles/Orthogon.dir/Main.cpp.obj: ../Player.hpp
+CMakeFiles/Orthogon.dir/Main.cpp.obj: ../TiledImage.hpp
 

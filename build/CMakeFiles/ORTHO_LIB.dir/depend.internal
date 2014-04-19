@@ -7,10 +7,12 @@ CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Color.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Drawable.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Export.hpp
+ C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Image.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Rect.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Rect.inl
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/RenderStates.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Sprite.hpp
+ C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Texture.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Transform.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Transformable.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Vertex.hpp
@@ -18,11 +20,15 @@ CMakeFiles/ORTHO_LIB.dir/Actor.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Time.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
+ C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Export.hpp
+ C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/GlResource.hpp
  C:/Users/owner/Documents/GitHub/orthogon/Actor.cpp
- C:/Users/owner/Documents/GitHub/orthogon/Actor.h
+ C:/Users/owner/Documents/GitHub/orthogon/Actor.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/Animation.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/TiledImage.hpp
 CMakeFiles/ORTHO_LIB.dir/Angle.cpp.obj
  C:/Users/owner/Documents/GitHub/orthogon/Angle.cpp
- C:/Users/owner/Documents/GitHub/orthogon/Angle.h
+ C:/Users/owner/Documents/GitHub/orthogon/Angle.hpp
 CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Config.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/BlendMode.hpp
@@ -45,8 +51,8 @@ CMakeFiles/ORTHO_LIB.dir/Animation.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Export.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/GlResource.hpp
  C:/Users/owner/Documents/GitHub/orthogon/Animation.cpp
- C:/Users/owner/Documents/GitHub/orthogon/Animation.h
- C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
+ C:/Users/owner/Documents/GitHub/orthogon/Animation.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/TiledImage.hpp
 CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Config.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/BlendMode.hpp
@@ -73,11 +79,11 @@ CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Export.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/GlResource.hpp
- C:/Users/owner/Documents/GitHub/orthogon/Angle.h
+ C:/Users/owner/Documents/GitHub/orthogon/Angle.hpp
  C:/Users/owner/Documents/GitHub/orthogon/DottedPath.cpp
- C:/Users/owner/Documents/GitHub/orthogon/DottedPath.h
- C:/Users/owner/Documents/GitHub/orthogon/Path.h
- C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
+ C:/Users/owner/Documents/GitHub/orthogon/DottedPath.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/Path.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/TiledImage.hpp
 CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Config.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/BlendMode.hpp
@@ -93,9 +99,9 @@ CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/VertexArray.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
- C:/Users/owner/Documents/GitHub/orthogon/Angle.h
+ C:/Users/owner/Documents/GitHub/orthogon/Angle.hpp
  C:/Users/owner/Documents/GitHub/orthogon/Path.cpp
- C:/Users/owner/Documents/GitHub/orthogon/Path.h
+ C:/Users/owner/Documents/GitHub/orthogon/Path.hpp
 CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Config.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/BlendMode.hpp
@@ -119,14 +125,21 @@ CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Export.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/GlResource.hpp
- C:/Users/owner/Documents/GitHub/orthogon/Actor.h
- C:/Users/owner/Documents/GitHub/orthogon/Angle.h
- C:/Users/owner/Documents/GitHub/orthogon/ImageRef.h
- C:/Users/owner/Documents/GitHub/orthogon/Path.h
+ C:/Users/owner/Documents/GitHub/orthogon/Actor.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/Angle.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/Animation.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/ImageRef.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/Path.hpp
  C:/Users/owner/Documents/GitHub/orthogon/Player.cpp
- C:/Users/owner/Documents/GitHub/orthogon/Player.h
- C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
- C:/Users/owner/Documents/GitHub/orthogon/VectorHelper.h
+ C:/Users/owner/Documents/GitHub/orthogon/Player.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/TiledImage.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/VectorHelper.hpp
+CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj
+ C:/Users/owner/Documents/GitHub/orthogon/PlayerMotion.cpp
+ C:/Users/owner/Documents/GitHub/orthogon/PlayerMotion.hpp
+CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj
+ C:/Users/owner/Documents/GitHub/orthogon/PlayerState.cpp
+ C:/Users/owner/Documents/GitHub/orthogon/PlayerState.hpp
 CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Config.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/Color.hpp
@@ -140,4 +153,4 @@ CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Export.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/GlResource.hpp
  C:/Users/owner/Documents/GitHub/orthogon/TiledImage.cpp
- C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
+ C:/Users/owner/Documents/GitHub/orthogon/TiledImage.hpp

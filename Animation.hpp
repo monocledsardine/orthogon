@@ -4,7 +4,7 @@
 #include <SFML/System/Time.hpp>
 #include <SFML/Graphics/Texture.hpp>
 #include <SFML/Graphics/Sprite.hpp>
-#include "TiledImage.h"
+#include "TiledImage.hpp"
 
 class Animation	:
 	public sf::Sprite

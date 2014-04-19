@@ -3,7 +3,7 @@
 
 #include <SFML/Graphics/Rect.hpp>
 #include <SFML/System/Time.hpp>
-#include "Animation.h"
+#include "Animation.hpp"
 
 class Actor
 {

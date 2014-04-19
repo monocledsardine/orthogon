@@ -1,4 +1,4 @@
-#include "Actor.h"
+#include "Actor.hpp"
 
 void Actor::setPosition(float x, float y)
 {

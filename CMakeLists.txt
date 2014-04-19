@@ -26,22 +26,26 @@ include_directories(${SFML_INCLUDE_DIR})
 
 set(ORTHO_SRC
 		Actor.cpp
-		Actor.h
+		Actor.hpp
 		Angle.cpp
-		Angle.h
+		Angle.hpp
 		Animation.cpp
-		Animation.h
+		Animation.hpp
 		DottedPath.cpp
-		DottedPath.h
-		ImageRef.h
+		DottedPath.hpp
+		ImageRef.hpp
 		Path.cpp
-		Path.h
+		Path.hpp
 		Player.cpp
-		Player.h
-		Room.h
+		Player.hpp
+		PlayerState.cpp
+		PlayerState.hpp
+		PlayerMotion.cpp
+		PlayerMotion.hpp
+		Room.hpp
 		TiledImage.cpp
-		TiledImage.h
-		VectorHelper.h
+		TiledImage.hpp
+		VectorHelper.hpp
 )
 
 add_library(ORTHO_LIB ${ORTHO_SRC})

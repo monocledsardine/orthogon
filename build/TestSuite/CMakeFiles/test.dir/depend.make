@@ -15,8 +15,8 @@ TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: C:/Users/owner/Documents/GitHub
 TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/Graphics/VertexArray.hpp
 TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.hpp
 TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
-TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: ../Angle.h
-TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: ../Path.h
+TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: ../Angle.hpp
+TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: ../Path.hpp
 TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: ../TestSuite/Game_Test.cpp
 TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: ../TestSuite/Suite.h
 TestSuite/CMakeFiles/test.dir/Game_Test.cpp.obj: ../TestSuite/Test.h

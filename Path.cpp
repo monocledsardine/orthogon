@@ -1,4 +1,4 @@
-#include "Path.h"
+#include "Path.hpp"
 #include <cmath>
 
 const float SQRT2 = 1.41421356f;

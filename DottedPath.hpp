@@ -4,8 +4,8 @@
 #include <SFML/Graphics/Drawable.hpp>
 #include <SFML/Graphics/RenderTexture.hpp>
 #include <SFML/Graphics/Sprite.hpp>
-#include "Path.h"
-#include "TiledImage.h"
+#include "Path.hpp"
+#include "TiledImage.hpp"
 
 #include <deque>
 

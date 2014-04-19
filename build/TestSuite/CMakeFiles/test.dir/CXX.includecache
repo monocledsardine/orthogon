@@ -80,13 +80,13 @@ SFML/System/Vector2.inl
 
 C:/Users/owner/Documents/GitHub/SFML/include/SFML/System/Vector2.inl
 
-C:/Users/owner/Documents/GitHub/orthogon/Angle.h
+C:/Users/owner/Documents/GitHub/orthogon/Angle.hpp
 cmath
 -
 
-C:/Users/owner/Documents/GitHub/orthogon/Path.h
-Angle.h
-C:/Users/owner/Documents/GitHub/orthogon/Angle.h
+C:/Users/owner/Documents/GitHub/orthogon/Path.hpp
+Angle.hpp
+C:/Users/owner/Documents/GitHub/orthogon/Angle.hpp
 SFML/Graphics/VertexArray.hpp
 -
 deque
@@ -101,18 +101,8 @@ Test.h
 C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Test.h
 Suite.h
 C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Suite.h
-../Path.h
-C:/Users/owner/Documents/GitHub/orthogon/Path.h
-
-C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Suite.cpp
-Suite.h
-C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Suite.h
-iostream
--
-cassert
--
-cstddef
--
+../Path.hpp
+C:/Users/owner/Documents/GitHub/orthogon/Path.hpp
 
 C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Suite.h
 vector
@@ -121,14 +111,6 @@ stdexcept
 -
 ../TestSuite/Test.h
 C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Test.h
-
-C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Test.cpp
-Test.h
-C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Test.h
-iostream
--
-typeinfo
--
 
 C:/Users/owner/Documents/GitHub/orthogon/TestSuite/Test.h
 string

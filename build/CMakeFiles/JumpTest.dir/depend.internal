@@ -67,12 +67,12 @@ CMakeFiles/JumpTest.dir/JumpTest.cpp.obj
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/Window.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/WindowHandle.hpp
  C:/Users/owner/Documents/GitHub/SFML/include/SFML/Window/WindowStyle.hpp
- C:/Users/owner/Documents/GitHub/orthogon/Actor.h
- C:/Users/owner/Documents/GitHub/orthogon/Angle.h
- C:/Users/owner/Documents/GitHub/orthogon/Animation.h
- C:/Users/owner/Documents/GitHub/orthogon/DottedPath.h
- C:/Users/owner/Documents/GitHub/orthogon/ImageRef.h
+ C:/Users/owner/Documents/GitHub/orthogon/Actor.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/Angle.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/Animation.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/DottedPath.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/ImageRef.hpp
  C:/Users/owner/Documents/GitHub/orthogon/JumpTest.cpp
- C:/Users/owner/Documents/GitHub/orthogon/Path.h
- C:/Users/owner/Documents/GitHub/orthogon/Player.h
- C:/Users/owner/Documents/GitHub/orthogon/TiledImage.h
+ C:/Users/owner/Documents/GitHub/orthogon/Path.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/Player.hpp
+ C:/Users/owner/Documents/GitHub/orthogon/TiledImage.hpp

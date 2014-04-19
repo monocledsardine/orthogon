@@ -10,6 +10,8 @@ SET(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/owner/Documents/GitHub/orthogon/DottedPath.cpp" "C:/Users/owner/Documents/GitHub/orthogon/build/CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj"
   "C:/Users/owner/Documents/GitHub/orthogon/Path.cpp" "C:/Users/owner/Documents/GitHub/orthogon/build/CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj"
   "C:/Users/owner/Documents/GitHub/orthogon/Player.cpp" "C:/Users/owner/Documents/GitHub/orthogon/build/CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj"
+  "C:/Users/owner/Documents/GitHub/orthogon/PlayerMotion.cpp" "C:/Users/owner/Documents/GitHub/orthogon/build/CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj"
+  "C:/Users/owner/Documents/GitHub/orthogon/PlayerState.cpp" "C:/Users/owner/Documents/GitHub/orthogon/build/CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj"
   "C:/Users/owner/Documents/GitHub/orthogon/TiledImage.cpp" "C:/Users/owner/Documents/GitHub/orthogon/build/CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")

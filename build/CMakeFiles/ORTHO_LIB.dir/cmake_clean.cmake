@@ -5,6 +5,8 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/ORTHO_LIB.dir/DottedPath.cpp.obj"
   "CMakeFiles/ORTHO_LIB.dir/Path.cpp.obj"
   "CMakeFiles/ORTHO_LIB.dir/Player.cpp.obj"
+  "CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj"
+  "CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj"
   "CMakeFiles/ORTHO_LIB.dir/TiledImage.cpp.obj"
   "libORTHO_LIB.pdb"
   "libORTHO_LIB.a"

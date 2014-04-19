@@ -385,6 +385,54 @@ Player.cpp.s:
 	$(MAKE) -f CMakeFiles\ORTHO_LIB.dir\build.make CMakeFiles/ORTHO_LIB.dir/Player.cpp.s
 .PHONY : Player.cpp.s
 
+PlayerMotion.obj: PlayerMotion.cpp.obj
+.PHONY : PlayerMotion.obj
+
+# target to build an object file
+PlayerMotion.cpp.obj:
+	$(MAKE) -f CMakeFiles\ORTHO_LIB.dir\build.make CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.obj
+.PHONY : PlayerMotion.cpp.obj
+
+PlayerMotion.i: PlayerMotion.cpp.i
+.PHONY : PlayerMotion.i
+
+# target to preprocess a source file
+PlayerMotion.cpp.i:
+	$(MAKE) -f CMakeFiles\ORTHO_LIB.dir\build.make CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.i
+.PHONY : PlayerMotion.cpp.i
+
+PlayerMotion.s: PlayerMotion.cpp.s
+.PHONY : PlayerMotion.s
+
+# target to generate assembly for a file
+PlayerMotion.cpp.s:
+	$(MAKE) -f CMakeFiles\ORTHO_LIB.dir\build.make CMakeFiles/ORTHO_LIB.dir/PlayerMotion.cpp.s
+.PHONY : PlayerMotion.cpp.s
+
+PlayerState.obj: PlayerState.cpp.obj
+.PHONY : PlayerState.obj
+
+# target to build an object file
+PlayerState.cpp.obj:
+	$(MAKE) -f CMakeFiles\ORTHO_LIB.dir\build.make CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.obj
+.PHONY : PlayerState.cpp.obj
+
+PlayerState.i: PlayerState.cpp.i
+.PHONY : PlayerState.i
+
+# target to preprocess a source file
+PlayerState.cpp.i:
+	$(MAKE) -f CMakeFiles\ORTHO_LIB.dir\build.make CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.i
+.PHONY : PlayerState.cpp.i
+
+PlayerState.s: PlayerState.cpp.s
+.PHONY : PlayerState.s
+
+# target to generate assembly for a file
+PlayerState.cpp.s:
+	$(MAKE) -f CMakeFiles\ORTHO_LIB.dir\build.make CMakeFiles/ORTHO_LIB.dir/PlayerState.cpp.s
+.PHONY : PlayerState.cpp.s
+
 TiledImage.obj: TiledImage.cpp.obj
 .PHONY : TiledImage.obj
 
@@ -449,6 +497,12 @@ help:
 	@echo ... Player.obj
 	@echo ... Player.i
 	@echo ... Player.s
+	@echo ... PlayerMotion.obj
+	@echo ... PlayerMotion.i
+	@echo ... PlayerMotion.s
+	@echo ... PlayerState.obj
+	@echo ... PlayerState.i
+	@echo ... PlayerState.s
 	@echo ... TiledImage.obj
 	@echo ... TiledImage.i
 	@echo ... TiledImage.s
